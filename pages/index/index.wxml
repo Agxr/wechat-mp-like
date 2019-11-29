@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="container">
+  <button catchtap="goMapSelAddressEvn">地图选址</button>
+</view>

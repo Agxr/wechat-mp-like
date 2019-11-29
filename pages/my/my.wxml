@@ -1,0 +1,23 @@
+<view class="my-box">
+  <!-- 用户信息 -->
+  <view class="my-info-box flex-box">
+    <view class="info-img">
+      <image src="{{wxUserInfoObj.avatarUrl}}" wx:if="{{isAutoWechatInfoFlag}}"></image>
+      <image src="/images/my/user-bg.png" wx:else></image>
+    </view>
+    <view class="info-name">
+      <text wx:if="{{isAutoWechatInfoFlag}}">{{ wxUserInfoObj.nickName || '-'}}</text>
+      <text wx:else>
+        <text>点击登录</text>
+        <text>登录后，专享更多服务</text>
+      </text>
+    </view>
+    <!-- 未授权登录时显示隐藏式授权登录按钮 -->
+    <view class="auto-wechat-box" wx:if="{{!isAutoWechatInfoFlag}}">
+      <button open-type="getUserInfo" bindgetuserinfo="onGetUserInfoEvn"></button>
+      <!-- <button catchtap="goRegisPageEvn"></button> -->
+    </view>
+  </view>
+
+
+</view>

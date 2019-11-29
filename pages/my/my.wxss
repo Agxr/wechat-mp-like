@@ -1,0 +1,111 @@
+.my-info-box {
+  padding: 40rpx 0 40rpx 30rpx;
+  background-color: #fff;
+  /* border-bottom: 1px solid #e7e7e7; */
+  position: relative;
+}
+.info-img {
+  width: 136rpx;
+  height: 136rpx;
+  padding-right: 34rpx;
+}
+.info-img image {
+  width: 136rpx;
+  height: 136rpx;
+  border-radius: 50%;
+}
+.info-name {
+  font-size: 32rpx;
+	letter-spacing: 1px;
+	color: #454545;
+}
+.info-name text text {
+  display: block;
+}
+.info-name text text:last-child {
+  font-size: 24rpx;
+	letter-spacing: 1px;
+	color: #a4a4a4;
+}
+/* 我的积分 */
+.my-jifen-box {
+  padding: 20rpx 30rpx;
+  background-color: #fff;
+  margin-bottom: 34rpx;
+}
+.jifen-num {
+  color: #44BCFF;
+  font-size: 30rpx;
+  line-height: 50rpx;
+  padding-right: 100rpx;
+}
+.jifen-btn text {
+  display: block;
+  padding: 0 22rpx;
+  height: 56rpx;
+  line-height: 56rpx;
+  font-size: 30rpx;
+  color: #fff;
+  background-color: #44BCFF;
+  border-radius: 56rpx;
+}
+.my-jifen-fixed {
+  width: 100%;
+  height: 150rpx;
+  position: relative;
+}
+.my-jifen-img {
+  position: absolute;
+  left: 40rpx;
+  top: 0;
+  width: 670rpx;
+  height: 150rpx;
+  z-index: 1;
+}
+.my-jifen-fixed-cont {
+  position: absolute;
+  left: 40rpx;
+  top: 0;
+  padding: 0 30rpx;
+  width: 610rpx;
+  height: 150rpx;
+  z-index: 2;
+}
+.my-jifen-fixed-cont .jifen-num {
+  color: #F2B82F;
+}
+.my-jifen-fixed-cont .jifen-num view:first-child {
+  color: #fff;
+}
+.my-jifen-fixed-cont .jifen-btn text {
+  background-color: #F2B82F;
+}
+/* 我的配置项 */
+.my-setting-box {
+  padding-top: 20rpx;
+  padding-bottom: 80rpx;
+  background-color: #fff;
+}
+.my-setting-item {
+  padding-left: 40rpx;
+  padding-right: 30rpx;
+  padding-top: 20rpx;
+  padding-bottom: 30rpx;
+  border-bottom: 1px solid #e7e7e7;
+}
+.my-setting-left image {
+  height: 36rpx;
+  width: 36rpx;
+}
+.my-setting-left text {
+  padding-left: 20rpx;
+  font-size: 30rpx;
+  color: #818181;
+}
+.my-setting-right {
+  width: 20rpx;
+  height: 20rpx;
+  border-top: 1px solid #818181;
+  border-right: 1px solid #818181;
+  transform: rotate(45deg);
+}

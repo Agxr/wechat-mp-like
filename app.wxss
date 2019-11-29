@@ -1,0 +1,113 @@
+/**app.wxss**/
+page{
+  background-color: #fafafa;
+  height: 100%;
+}
+view, text, button, input {
+  font-family: Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
+}
+view, text {
+  word-break: break-all;
+}
+/* flex相关布局 */
+.flex-box {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+}
+.flex-box-wrap {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-between {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-around {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex-column-box {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* margin样式 */
+.margin-top-10 {
+  margin-top: 10rpx;
+}
+.margin-bottom-10 {
+  margin-bottom: 10rpx;
+}
+/* background-color */
+.background-color-fff {
+  background-color: #fff;
+}
+/* 教师端缺省样式 */
+.none-box {
+  width: 100%;
+}
+.none-img {
+  width: 196rpx;
+  height: 196rpx;
+  margin: 40rpx 0;
+}
+.none-txt {
+  font-size: 32rpx;
+  color: #868686;
+}
+/* 底线样式 */
+.dixian {
+  width: 100%;
+  padding: 10rpx 0 20rpx;
+  font-size: 12px;
+  text-align: center;
+  color: #868686;
+}
+.dixian-top {
+  margin-top: 90rpx;
+}
+.list-no-txt {
+  width: 100%;
+  padding: 20rpx 0;
+  font-size: 24rpx;
+  text-align: center;
+  color: #868686;
+}
+/* 微信授权隐藏式按钮 */
+.auto-wechat-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.auto-wechat-box button {
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  background-color: rgba(0, 0, 0, 0);
+}
